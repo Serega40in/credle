@@ -1,0 +1,82 @@
+body {
+    background-color: #f5f5f5!important;
+    color: #000!important;
+}
+header {
+  background-image: url('../img/bg.png');
+  background-attachment: fixed;
+}
+
+.bg-dark {
+    background-color: #040e14!important;
+}
+
+.descriptor {
+	display: inline-block;
+    padding-top: 2.3125rem;
+    padding-bottom: .3125rem;
+    margin-left: 8rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #000!important;
+}
+.carousel-caption {
+    bottom: unset!important;
+    left: 5%!important;
+    right: 5%!important;
+    padding-top: 95px!important;    
+}
+.carousel-item {
+  background-color: #f5f5f5!important;
+}
+h1, h2, h3 {
+	font-weight: bold!important;
+	font-size: 220%;
+      color: #000!important;
+}
+h2  {
+  margin:20px auto;
+}
+.btn {
+	font-size: 24px;
+	font-weight: bold;
+}
+.block {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.how {
+      background-color: #f5f5f5!important;
+      color: #000!important;
+}
+.raz {
+  display: flex;
+  flex-flow: wrap;
+  border: 1px solid #079ad9;
+  padding: 0 0 1em 1em;
+}
+.raz div {
+  flex: 1 1 7em;
+  margin: 1em 1em 0 0;
+  border: 2px solid #079ad9;
+  padding: 1em;
+  text-align: center;
+}
+.noneneon {
+    flex: unset!important;
+  margin: auto!important;
+  border: none!important;
+   padding: 0!important;
+}
+@media screen and (max-width: 768px) {
+  h1, h2, h3 {
+    font-size: 24px!important;
+  }
+  p {
+    font-size: 18px!important; 
+  }
+  ul li label {
+    font-size: 16px!important;
+  }
+}
